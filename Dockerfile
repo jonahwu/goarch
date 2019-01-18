@@ -1,4 +1,5 @@
-FROM golang:latest AS build
+#FROM golang:latest AS build
+FROM golang:1.11 AS build
 
 ENV GOARCH_SRC=$GOPATH/src/github.com/goarch
 #ENV CGO_ENABLED=1
