@@ -16,4 +16,5 @@ func main() {
 	glog.Info("now into data")
 	//glog.Error("glog in errorla")
 	glog.Flush()
+	select {}
 }
